@@ -1,0 +1,6 @@
+pages\AmazonHomePage.class
+utils\ExcelReader.class
+utils\ExtentReportManager.class
+pages\AmazonSearchResultsPage.class
+utils\BrowserUtils.class
+utils\ScreenshotUtil.class

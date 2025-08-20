@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-20T18:04:08 IST" name="AmazonTestSuite" finished-at="2025-08-20T18:06:03 IST" duration-ms="115619">
+    <groups>
+    </groups>
+    <test started-at="2025-08-20T18:04:08 IST" name="AmazonSearchTestChrome" finished-at="2025-08-20T18:05:06 IST" duration-ms="58608">
+      <class name="tests.AmazonSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:08 IST" name="setup" finished-at="2025-08-20T18:04:14 IST" duration-ms="6647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:16 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:22 IST" duration-ms="6413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidProductSearch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:22 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:27 IST" duration-ms="4789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmptySearch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:27 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:30 IST" duration-ms="3113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SingleCharSuggestions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:30 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:33 IST" duration-ms="3336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SingleCharTenSuggestions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:33 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:39 IST" duration-ms="5951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SelectSuggestion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:39 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:43 IST" duration-ms="3682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TwoCharSuggestions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:43 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:47 IST" duration-ms="4519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RepeatedWord]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[laptop laptop]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:47 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:04:53 IST" duration-ms="5039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RandomChar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:04:53 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:01 IST" duration-ms="8337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LongString]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJd8aGh2kTs5oMb0uVn7yCr1xPw9zXq4eFj6dLt3gSa8mKo2hNb5uVr0yTw7cXq1zPl9oJf3dGn6kHt2mSa8rVb5nUc0yWq7eXp4lFj9tKa3gHs6mDn2oRv8cTb1uZq5xPw0yJf7lNt3gKa9mSh2dGb6oVr4uXp1qWc8zLj5tFn0yHa7kMs3dRn9oVb2uTc6xPw4qZj1fLt8gNa5mSh0dKr7oVn3cUb9yTw2xPq6zLj4fFn1gHs8mDa5kNr0oVb7uXc3yWq9tPj2lFh6dGn4sMa1kSv8oRb5uNc0yTw7qXj3pLf9dKt2gHn6mSa4oVr1uXb8cYq5wPz0jFt7lN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:05:01 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:05 IST" duration-ms="4334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CharAndNumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonSearchTest@367ffa75]" started-at="2025-08-20T18:05:05 IST" name="tearDown" finished-at="2025-08-20T18:05:06 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AmazonSearchTest -->
+    </test> <!-- AmazonSearchTestChrome -->
+    <test started-at="2025-08-20T18:05:06 IST" name="AmazonSearchTestFirefox" finished-at="2025-08-20T18:06:03 IST" duration-ms="56956">
+      <class name="tests.AmazonSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:06 IST" name="setup" finished-at="2025-08-20T18:05:16 IST" duration-ms="10223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:17 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:24 IST" duration-ms="7006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidProductSearch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:24 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:28 IST" duration-ms="4741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmptySearch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:28 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:31 IST" duration-ms="2785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SingleCharSuggestions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:31 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:34 IST" duration-ms="2745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SingleCharTenSuggestions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:34 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:40 IST" duration-ms="5892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SelectSuggestion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:40 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:43 IST" duration-ms="3615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TwoCharSuggestions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:43 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:47 IST" duration-ms="3709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RepeatedWord]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[laptop laptop]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:47 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:50 IST" duration-ms="2642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RandomChar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:50 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:05:57 IST" duration-ms="6899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LongString]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJd8aGh2kTs5oMb0uVn7yCr1xPw9zXq4eFj6dLt3gSa8mKo2hNb5uVr0yTw7cXq1zPl9oJf3dGn6kHt2mSa8rVb5nUc0yWq7eXp4lFj9tKa3gHs6mDn2oRv8cTb1uZq5xPw0yJf7lNt3gKa9mSh2dGb6oVr4uXp1qWc8zLj5tFn0yHa7kMs3dRn9oVb2uTc6xPw4qZj1fLt8gNa5mSh0dKr7oVn3cUb9yTw2xPq6zLj4fFn1gHs8mDa5kNr0oVb7uXc3yWq9tPj2lFh6dGn4sMa1kSv8oRb5uNc0yTw7qXj3pLf9dKt2gHn6mSa4oVr1uXb8cYq5wPz0jFt7lN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testSearchFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:05:57 IST" name="testSearchFunctionality" data-provider="searchData" finished-at="2025-08-20T18:06:01 IST" duration-ms="4038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CharAndNumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonSearchTest@3c3d9b6b]" started-at="2025-08-20T18:06:01 IST" name="tearDown" finished-at="2025-08-20T18:06:03 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AmazonSearchTest -->
+    </test> <!-- AmazonSearchTestFirefox -->
+  </suite> <!-- AmazonTestSuite -->
+</testng-results>

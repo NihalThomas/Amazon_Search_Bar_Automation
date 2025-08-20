@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AmazonTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">AmazonTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AmazonTestSuite" class="navigator-link ">
+                    <span>C:\Users\HP\eclipse-workspace\testcases\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AmazonTestSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AmazonTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AmazonTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AmazonTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AmazonTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AmazonTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmazonTestSuite" class="hide-methods passed suite-AmazonTestSuite"> (hide)</a> <!-- hide-methods passed suite-AmazonTestSuite -->
+                      <a href="#" panel-name="suite-AmazonTestSuite" class="show-methods passed suite-AmazonTestSuite"> (show)</a> <!-- show-methods passed suite-AmazonTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AmazonTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(EmptySearch, , )">testSearchFunctionality(EmptySearch, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(RandomChar, @, )">testSearchFunctionality(RandomChar, @, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(RepeatedWord, laptop laptop, )">testSearchFunctionality(RepeatedWord, laptop laptop, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(SingleCharSuggestions, a, )">testSearchFunctionality(SingleCharSuggestions, a, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(SelectSuggestion, c, )">testSearchFunctionality(SelectSuggestion, c, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(TwoCharSuggestions, ab, )">testSearchFunctionality(TwoCharSuggestions, ab, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(SingleCharTenSuggestions, b, )">testSearchFunctionality(SingleCharTenSuggestions, b, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(CharAndNumber, iPhone 15, )">testSearchFunctionality(CharAndNumber, iPhone 15, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)">testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)">testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(EmptySearch, , )">testSearchFunctionality(EmptySearch, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)">testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(SingleCharSuggestions, a, )">testSearchFunctionality(SingleCharSuggestions, a, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(TwoCharSuggestions, ab, )">testSearchFunctionality(TwoCharSuggestions, ab, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(RandomChar, @, )">testSearchFunctionality(RandomChar, @, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(CharAndNumber, iPhone 15, )">testSearchFunctionality(CharAndNumber, iPhone 15, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(SelectSuggestion, c, )">testSearchFunctionality(SelectSuggestion, c, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(SingleCharTenSuggestions, b, )">testSearchFunctionality(SingleCharTenSuggestions, b, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)">testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonTestSuite" title="tests.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearchFunctionality(RepeatedWord, laptop laptop, )">testSearchFunctionality(RepeatedWord, laptop laptop, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmazonTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AmazonTestSuite" class="panel AmazonTestSuite">
+          <div class="suite-AmazonTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AmazonSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(EmptySearch, , )">
+                  </a> <!-- testSearchFunctionality(EmptySearch, , ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(EmptySearch,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(RandomChar, @, )">
+                  </a> <!-- testSearchFunctionality(RandomChar, @, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(RandomChar,@,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(RepeatedWord, laptop laptop, )">
+                  </a> <!-- testSearchFunctionality(RepeatedWord, laptop laptop, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(RepeatedWord,laptop laptop,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(SingleCharSuggestions, a, )">
+                  </a> <!-- testSearchFunctionality(SingleCharSuggestions, a, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(SingleCharSuggestions,a,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(SelectSuggestion, c, )">
+                  </a> <!-- testSearchFunctionality(SelectSuggestion, c, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(SelectSuggestion,c,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(TwoCharSuggestions, ab, )">
+                  </a> <!-- testSearchFunctionality(TwoCharSuggestions, ab, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(TwoCharSuggestions,ab,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(SingleCharTenSuggestions, b, )">
+                  </a> <!-- testSearchFunctionality(SingleCharTenSuggestions, b, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(SingleCharTenSuggestions,b,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(CharAndNumber, iPhone 15, )">
+                  </a> <!-- testSearchFunctionality(CharAndNumber, iPhone 15, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(CharAndNumber,iPhone 15,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)">
+                  </a> <!-- testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(ValidProductSearch,MacBook Air,MacBook Air)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)">
+                  </a> <!-- testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(LongString,a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJd8aGh2kTs5oMb0uVn7yCr1xPw9zXq4eFj6dLt3gSa8mKo2hNb5uVr0yTw7cXq1zPl9oJf3dGn6kHt2mSa8rVb5nUc0yWq7eXp4lFj9tKa3gHs6mDn2oRv8cTb1uZq5xPw0yJf7lNt3gKa9mSh2dGb6oVr4uXp1qWc8zLj5tFn0yHa7kMs3dRn9oVb2uTc6xPw4qZj1fLt8gNa5mSh0dKr7oVn3cUb9yTw2xPq6zLj4fFn1gHs8mDa5kNr0oVb7uXc3yWq9tPj2lFh6dGn4sMa1kSv8oRb5uNc0yTw7qXj3pLf9dKt2gHn6mSa4oVr1uXb8cYq5wPz0jFt7lN,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(EmptySearch, , )">
+                  </a> <!-- testSearchFunctionality(EmptySearch, , ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(EmptySearch,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)">
+                  </a> <!-- testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(ValidProductSearch,MacBook Air,MacBook Air)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(SingleCharSuggestions, a, )">
+                  </a> <!-- testSearchFunctionality(SingleCharSuggestions, a, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(SingleCharSuggestions,a,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(TwoCharSuggestions, ab, )">
+                  </a> <!-- testSearchFunctionality(TwoCharSuggestions, ab, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(TwoCharSuggestions,ab,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(RandomChar, @, )">
+                  </a> <!-- testSearchFunctionality(RandomChar, @, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(RandomChar,@,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(CharAndNumber, iPhone 15, )">
+                  </a> <!-- testSearchFunctionality(CharAndNumber, iPhone 15, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(CharAndNumber,iPhone 15,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(SelectSuggestion, c, )">
+                  </a> <!-- testSearchFunctionality(SelectSuggestion, c, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(SelectSuggestion,c,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(SingleCharTenSuggestions, b, )">
+                  </a> <!-- testSearchFunctionality(SingleCharTenSuggestions, b, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(SingleCharTenSuggestions,b,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)">
+                  </a> <!-- testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(LongString,a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJd8aGh2kTs5oMb0uVn7yCr1xPw9zXq4eFj6dLt3gSa8mKo2hNb5uVr0yTw7cXq1zPl9oJf3dGn6kHt2mSa8rVb5nUc0yWq7eXp4lFj9tKa3gHs6mDn2oRv8cTb1uZq5xPw0yJf7lNt3gKa9mSh2dGb6oVr4uXp1qWc8zLj5tFn0yHa7kMs3dRn9oVb2uTc6xPw4qZj1fLt8gNa5mSh0dKr7oVn3cUb9yTw2xPq6zLj4fFn1gHs8mDa5kNr0oVb7uXc3yWq9tPj2lFh6dGn4sMa1kSv8oRb5uNc0yTw7qXj3pLf9dKt2gHn6mSa4oVr1uXb8cYq5wPz0jFt7lN,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFunctionality(RepeatedWord, laptop laptop, )">
+                  </a> <!-- testSearchFunctionality(RepeatedWord, laptop laptop, ) -->
+                  <span class="method-name">testSearchFunctionality</span>
+                  <span class="parameters">(RepeatedWord,laptop laptop,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonTestSuite-class-passed -->
+        </div> <!-- panel AmazonTestSuite -->
+        <div panel-name="test-xml-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\testcases\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AmazonTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AmazonSearchTestChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AmazonSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonSearchTestChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AmazonSearchTestFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AmazonSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonSearchTestFirefox --&gt;
+&lt;/suite&gt; &lt;!-- AmazonTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AmazonTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AmazonSearchTestChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AmazonSearchTestFirefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AmazonTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AmazonTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AmazonTestSuite');
+function tableData_AmazonTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchFunctionality')
+data.setCell(0, 2, 'tests.AmazonSearchTest')
+data.setCell(0, 3, 8337);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchFunctionality')
+data.setCell(1, 2, 'tests.AmazonSearchTest')
+data.setCell(1, 3, 7006);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearchFunctionality')
+data.setCell(2, 2, 'tests.AmazonSearchTest')
+data.setCell(2, 3, 6899);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearchFunctionality')
+data.setCell(3, 2, 'tests.AmazonSearchTest')
+data.setCell(3, 3, 6413);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchFunctionality')
+data.setCell(4, 2, 'tests.AmazonSearchTest')
+data.setCell(4, 3, 5951);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSearchFunctionality')
+data.setCell(5, 2, 'tests.AmazonSearchTest')
+data.setCell(5, 3, 5892);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchFunctionality')
+data.setCell(6, 2, 'tests.AmazonSearchTest')
+data.setCell(6, 3, 5039);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSearchFunctionality')
+data.setCell(7, 2, 'tests.AmazonSearchTest')
+data.setCell(7, 3, 4789);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSearchFunctionality')
+data.setCell(8, 2, 'tests.AmazonSearchTest')
+data.setCell(8, 3, 4741);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSearchFunctionality')
+data.setCell(9, 2, 'tests.AmazonSearchTest')
+data.setCell(9, 3, 4519);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchFunctionality')
+data.setCell(10, 2, 'tests.AmazonSearchTest')
+data.setCell(10, 3, 4334);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSearchFunctionality')
+data.setCell(11, 2, 'tests.AmazonSearchTest')
+data.setCell(11, 3, 4038);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSearchFunctionality')
+data.setCell(12, 2, 'tests.AmazonSearchTest')
+data.setCell(12, 3, 3709);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSearchFunctionality')
+data.setCell(13, 2, 'tests.AmazonSearchTest')
+data.setCell(13, 3, 3682);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSearchFunctionality')
+data.setCell(14, 2, 'tests.AmazonSearchTest')
+data.setCell(14, 3, 3615);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSearchFunctionality')
+data.setCell(15, 2, 'tests.AmazonSearchTest')
+data.setCell(15, 3, 3336);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSearchFunctionality')
+data.setCell(16, 2, 'tests.AmazonSearchTest')
+data.setCell(16, 3, 3113);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSearchFunctionality')
+data.setCell(17, 2, 'tests.AmazonSearchTest')
+data.setCell(17, 3, 2785);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSearchFunctionality')
+data.setCell(18, 2, 'tests.AmazonSearchTest')
+data.setCell(18, 3, 2745);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSearchFunctionality')
+data.setCell(19, 2, 'tests.AmazonSearchTest')
+data.setCell(19, 3, 2642);
+window.suiteTableData['AmazonTestSuite']= { tableData: data, tableDiv: 'times-div-AmazonTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-AmazonTestSuite">
+              </div> <!-- times-div-AmazonTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AmazonTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AmazonTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AmazonSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)</span>
+                <span class="method-start">8025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(EmptySearch, , )</span>
+                <span class="method-start">14442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(SingleCharSuggestions, a, )</span>
+                <span class="method-start">19233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(SingleCharTenSuggestions, b, )</span>
+                <span class="method-start">22348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(SelectSuggestion, c, )</span>
+                <span class="method-start">25689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(TwoCharSuggestions, ab, )</span>
+                <span class="method-start">31643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(RepeatedWord, laptop laptop, )</span>
+                <span class="method-start">35326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(RandomChar, @, )</span>
+                <span class="method-start">39847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)</span>
+                <span class="method-start">44888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(CharAndNumber, iPhone 15, )</span>
+                <span class="method-start">53227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57563 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">58631 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(ValidProductSearch, MacBook Air, MacBook Air)</span>
+                <span class="method-start">68994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(EmptySearch, , )</span>
+                <span class="method-start">76011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(SingleCharSuggestions, a, )</span>
+                <span class="method-start">80755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(SingleCharTenSuggestions, b, )</span>
+                <span class="method-start">83545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(SelectSuggestion, c, )</span>
+                <span class="method-start">86291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(TwoCharSuggestions, ab, )</span>
+                <span class="method-start">92191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(RepeatedWord, laptop laptop, )</span>
+                <span class="method-start">95808 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(RandomChar, @, )</span>
+                <span class="method-start">99520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(LongString, a9fK2LmQ7zXc4vW1pRt8yGh5DnUb3oEj6sMi0TkVqYrNwCl2xPaFz8gHd5jBs9uKe1mOv7tXc4rWyQnZl3pLf6vJ...)</span>
+                <span class="method-start">102165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFunctionality(CharAndNumber, iPhone 15, )</span>
+                <span class="method-start">109067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113106 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
